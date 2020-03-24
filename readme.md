@@ -6,3 +6,21 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 
 <img src="pictures/project.png" alt="project" />
 
+<hr>
+<h2>Getting started</h2>
+<h3>prerequisite</h3>
+<h3>Installing</h3>
+
+<hr>
+<h2>Start the program</h2>
+
+<hr>
+<h2>Contributing</h2>
+
+<hr>
+<h2>Authors</h2>
+<ul>
+  <li><strong>Goffin Gerome</strong></li>
+  <li><strong>Dupont Corentin</strong></li>
+  <li><strong>Josis Arnaud</strong></li>
+</ul>

@@ -6,7 +6,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 
 <img src="pictures/project.png" alt="project" />
 <hr>
-<h2>Summary</h2>
+<h2><u>Summary</u></h2>
 <ul>
   <li><strong>Getting started</strong></li>
   <li><strong>Start the program</strong></li>
@@ -14,20 +14,20 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
   <li><strong>Authors</strong></li>
 </ul>
 <hr>
-<h2>Getting started</h2>
+<h2><u>Getting started</u></h2>
 <h3>prerequisite</h3>
 <h4>Material list</h4>
 <img src="pictures/list_materials.png" alt="list_materials" />
 <h3>Installing</h3>
 
 <hr>
-<h2>Start the program</h2>
+<h2><u>Start the program</u></h2>
 
 <hr>
-<h2>Contributing</h2>
+<h2><u>Contributing</u></h2>
 
 <hr>
-<h2>Authors</h2>
+<h2><u>Authors</u></h2>
 <ul>
   <li><strong>Goffin Gerome</strong></li>
   <li><strong>Dupont Corentin</strong></li>

@@ -5,10 +5,19 @@ Thanks to the Raspberry and the Pi camera, the video stream is analyzed. If the 
 In the event that is dark, and a person is detected by the Raspberry, the outside light is switched on by the Arduino. After a few seconds, the light is switched off.
 
 <img src="pictures/project.png" alt="project" />
-
+<hr>
+<h2>Summary</h2>
+<ul>
+  <li><strong>Getting started</strong></li>
+  <li><strong>Start the program</strong></li>
+  <li><strong>Contributing</strong></li>
+  <li><strong>Authors</strong></li>
+</ul>
 <hr>
 <h2>Getting started</h2>
 <h3>prerequisite</h3>
+<h4>Material list</h4>
+<img src="pictures/list_materials.png" alt="list_materials" />
 <h3>Installing</h3>
 
 <hr>

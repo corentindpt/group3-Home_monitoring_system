@@ -17,7 +17,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 <h2><u>Getting started</u></h2>
 <h3>prerequisite</h3>
 <h4>Material list</h4>
-<img src="pictures/list_materials.png" alt="list_materials" />
+<img src="pictures/list_materials.jpeg" alt="list_materials" />
 <h3>Installing</h3>
 
 <hr>

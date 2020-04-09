@@ -50,7 +50,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 		<li>Choose <code>Finish</code></li>
 	</ul>
 	<li>Connect and enable the Pi Camera</li>
-	Be carefull ! Disconnect the power of the Raspberry Pi 4 before connect the Pi Camera
+	<b>Be carefull !</b> Disconnect the power of the Raspberry Pi 4 before connect the Pi Camera.
 		<ul>
 		<li>Enter <code>sudo raspi-config</code> in the terminal</li>
 		<li>Select <code>Interfacing Options</code></li>

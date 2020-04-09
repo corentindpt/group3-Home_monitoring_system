@@ -37,6 +37,20 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 <h3>prerequisite</h3>
 <h4>Material list</h4>
 <img src="pictures/Material_list.jpeg" alt="Material_list" />
+<h3>Configuration of the Raspberry Pi 4</h3>
+<ol>
+	<li>Connect your Raspberry to a network via Wifi or via Ethernet</li>
+	<li>Enable the ssh on the Rapsberry Pi to access to the terminal from your pc</li>
+	<ul>
+		<li>Enter "sudo raspi-config" in the terminal window</li>
+		<li>Select "Interfacing Options"</li>
+		<li>Navigate to and select "SSH"</li>
+		<li>Choose "Yes"</li>
+		<li>Select "Ok"</li>
+		<li>Choose "Finish"</li>
+	</ul>
+	<li>Enable the Pi Camera</li>
+</ol>
 <h3>Installing</h3>
 
 <hr>

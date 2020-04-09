@@ -42,7 +42,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 	<li>Connect your Raspberry to a network via Wifi or via Ethernet</li>
 	<li>Enable the ssh on the Rapsberry Pi to access to the terminal from your pc</li>
 	<ul>
-		<li>Enter "sudo raspi-config" in the terminal window</li>
+		<li>Enter <code>"sudo raspi-config"</code> in the terminal window</li>
 		<li>Select "Interfacing Options"</li>
 		<li>Navigate to and select "SSH"</li>
 		<li>Choose "Yes"</li>

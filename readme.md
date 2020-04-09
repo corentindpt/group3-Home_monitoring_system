@@ -59,7 +59,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 		<li>Select <code>Ok</code></li>
 		<li>Choose <code>Finish</code></li>
 	</ul>
-	After the restart of the Rasberry, you can test the camera via the command <code>raspbistill -o testImage.jpeg</code> or if the camera upside down <code>raspbistill -vf -hf -o testImage.jpeg</code>. There are others parameters for the command, check <a href=https://www.raspberrypi.org/documentation/raspbian/applications/camera.md> here</a>.
+	After the restart of the Raspberry, you can test the camera via the command <code>raspistill -o testImage.jpeg</code> or if the camera upside down <code>raspistill -vf -hf -o testImage.jpeg</code>. There are others parameters for the command, check <a href=https://www.raspberrypi.org/documentation/raspbian/applications/camera.md> here</a>.
 </ol>
 <h3>Installing</h3>
 

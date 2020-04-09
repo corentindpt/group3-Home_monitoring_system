@@ -39,7 +39,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 <img src="pictures/Material_list.jpeg" alt="Material_list" />
 <h3>Configuration of the Raspberry Pi 4</h3>
 <ol>
-	<li>Connect your Raspberry to a network via Wifi or via Ethernet</li>
+	<li>Connect your Raspberry to a power supply and a network via Wifi or via Ethernet</li>
 	<li>Enable the ssh on the Rapsberry Pi to control it from your pc</li>
 	<ul>
 		<li>Enter <code>sudo raspi-config</code> in the terminal window on the Raspberry Pi 4</li>
@@ -59,7 +59,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 		<li>Select <code>Ok</code></li>
 		<li>Choose <code>Finish</code></li>
 	</ul>
-	You can test the camera via the command <code>raspbistill -o testImage.jpeg</code> or if the camera upside down <code>raspbistill -vf -hf -o testImage.jpeg</code>. There are others parameters for the command, check <a href=https://www.raspberrypi.org/documentation/raspbian/applications/camera.md> here</a> 
+	After the restart of the Rasberry, you can test the camera via the command <code>raspbistill -o testImage.jpeg</code> or if the camera upside down <code>raspbistill -vf -hf -o testImage.jpeg</code>. There are others parameters for the command, check <a href=https://www.raspberrypi.org/documentation/raspbian/applications/camera.md> here</a>.
 </ol>
 <h3>Installing</h3>
 

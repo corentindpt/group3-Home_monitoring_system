@@ -65,6 +65,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 		<ul>
 			<li>Enter <code>sudo apt update</code> in the terminal</li>
 			<li>Enter <code>sudo apt full-upgrade</code> in the terminal</li>
+		</ul>	
 </ol>
 <h3>Installing</h3>
 

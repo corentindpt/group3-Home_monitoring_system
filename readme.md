@@ -68,6 +68,17 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 		</ul>	
 </ol>
 <h3>Installing</h3>
+<ol>
+	<li>Install OpenCV library</li>
+		<lu>
+		</lu>	
+	<li>Install imutils library</li>
+		<lu>
+		</lu>	
+	<li>Install FaceRecognition library</li>
+		<lu>
+		</lu>	
+</ol>	
 
 <hr>
 <h2><u>Start the program</u></h2>

@@ -28,7 +28,6 @@ void loop()
   {
     val = digitalRead(inputPin);  // read input value
     Serial.println(val);
-    val = digitalRead(inputPin);  // read input value
     if (val == HIGH)
     {
       // check if the input is HIGH

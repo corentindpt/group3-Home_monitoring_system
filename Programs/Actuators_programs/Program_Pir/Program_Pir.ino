@@ -24,10 +24,11 @@ void setup()
 /*--------------Main loop----------------*/
 void loop()
 {
-  val = digitalRead(inputPin);  // read input value
-  Serial.println(val);
   if (LdrRead() <= 400)
   {
+    val = digitalRead(inputPin);  // read input value
+    Serial.println(val);
+    val = digitalRead(inputPin);  // read input value
     if (val == HIGH)
     {
       // check if the input is HIGH
@@ -44,8 +45,6 @@ void loop()
     }
     else
     {
-      digitalWrite(ledPin, LOW); // turn LED OFF
-      delay(300);
       if (pirState == HIGH)
       {
         // we have just turned of

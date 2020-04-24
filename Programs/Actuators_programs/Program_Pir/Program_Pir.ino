@@ -1,40 +1,70 @@
 /*----------------------------------------*/
 /*Programmer : Corentin Dupont            */
 /*Management of lighting                  */
-/*Last modification : april 21 2020       */
+/*Last modification : april 24 2020       */
 /*----------------------------------------*/
 
 /*--------------Variables-----------------*/
-const int piroutpin = 3;
-const int ledPin = 2;
-int buttonstate = 0;
+int ledPin = 2;                // choose the pin for the LED
+int inputPin = 3;               // choose the input pin (for PIR sensor)
+int pirState = LOW;             // we start, assuming no motion detected
+int val = 0;                    // variable for reading the pin status
+
 /*----------------------------------------*/
 
 /*--------------Loop setup----------------*/
-void setup() {
+void setup()
+{
   Serial.begin(9600);
-  pinMode(piroutpin, INPUT);
+  pinMode(inputPin, INPUT);
   pinMode(ledPin, OUTPUT);
-  digitalWrite(piroutpin, LOW);
-  digitalWrite(ledPin, LOW);
-  delay(50);
 }
 /*----------------------------------------*/
 
 /*--------------Main loop----------------*/
 void loop()
 {
-  buttonstate = digitalRead(piroutpin);
-  //Serial.println(buttonstate);
-  if (buttonstate == HIGH)
+  val = digitalRead(inputPin);  // read input value
+  Serial.println(val);
+  if (LdrRead() <= 400)
   {
-    digitalWrite(ledPin, HIGH);
-    delay(10000);
+    if (val == HIGH)
+    {
+      // check if the input is HIGH
+      digitalWrite(ledPin, HIGH);  // turn LED ON
+      delay(3000);
+      digitalWrite(ledPin, LOW);  // turn LED ON
+      if (pirState == LOW)
+      {
+        // we have just turned on
+        Serial.println("Motion detected!");
+        // We only want to print on the output change, not state
+        pirState = HIGH;
+      }
+    }
+    else
+    {
+      digitalWrite(ledPin, LOW); // turn LED OFF
+      delay(300);
+      if (pirState == HIGH)
+      {
+        // we have just turned of
+        Serial.println("Motion ended!");
+        // We only want to print on the output change, not state
+        pirState = LOW;
+      }
+    }
   }
-  else
-  {
-    Serial.println("led off");
-    digitalWrite(ledPin, LOW);
-  }
+
+
 }
 /*----------------------------------------*/
+
+int LdrRead()
+{
+  int valeur = analogRead(A0);
+  Serial.println(valeur);
+  delay(250);
+  return valeur ;
+
+}

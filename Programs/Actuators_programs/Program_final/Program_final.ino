@@ -5,6 +5,8 @@
 /*----------------------------------------*/
 /*--------------Librairies----------------*/
 #include <Servo.h> //Servomotor
+#include "pitches.h"
+
 /*----------------------------------------*/
 
 /*---------------Objects------------------*/
@@ -15,7 +17,16 @@ int ledPin = 2;                // choose the pin for the LED
 int inputPin = 3;               // choose the input pin (for PIR sensor)
 int pirState = LOW;             // we start, assuming no motion detected
 int val = 0;                    // variable for reading the pin status
-int a ;
+int a = 0;
+
+int melody[] = {
+  NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4,NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4,NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4,NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
+};
+
+int noteDurations[] = {
+  4, 8, 8, 4, 4, 4, 4, 4,4, 8, 8, 4, 4, 4, 4, 4,4, 8, 8, 4, 4, 4, 4, 4,4, 8, 8, 4, 4, 4, 4, 4,4, 8, 8, 4, 4, 4, 4, 4,4, 8, 8, 4, 4, 4, 4, 4
+};
+
 /*----------------------------------------*/
 
 /*--------------Loop setup----------------*/
@@ -90,18 +101,30 @@ void management_door(void)
   if (Serial.available())
   {
     a = Serial.read();
-    if (a == '1')
+    if (a == '1') // known person
     {
       Serial.println("Door open");
       lock.write(90);
       delay(2000);
-      lock.write(90);
-
+      lock.write(0);
     }
-    else
+    if (a == '0') //Unknown personn
     {
       Serial.println("Door close");
       lock.write(0);
+      for (int thisNote = 0; thisNote < 20; thisNote++)
+      {
+        int noteDuration = 1000 / noteDurations[thisNote];
+        tone(8, melody[thisNote], noteDuration);
+        int pauseBetweenNotes = noteDuration * 1.30;
+        delay(pauseBetweenNotes);
+        noTone(8);
+      }
     }
+  }
+  if (a == '2') //Nothing
+  {
+    Serial.println("Door close");
+    lock.write(0);
   }
 }

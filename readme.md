@@ -60,7 +60,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 			<li>Choose <code>Finish</code></li>
 		</ul>
 	After the restart of the Raspberry, you can test the camera via the command <code>raspistill -o testImage.jpeg</code> or if the camera is upside down <code>raspistill -vf -hf -o testImage.jpeg</code>. There are others parameters for the command, check <a href=https://www.raspberrypi.org/documentation/raspbian/applications/camera.md> here</a>.
-	You can also try a python test program, see /Programs/TestCamera.
+	You can also try a python test program, <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/TestCamera> see /Programs/TestCamera</a>.
 	<li>Update the Raspberry Pi 4 os and the installed packages</li>
 		<ul>
 			<li>Enter <code>sudo apt update</code> in the terminal</li>

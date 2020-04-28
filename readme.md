@@ -69,15 +69,62 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 </ol>
 <h3>Installing</h3>
 <ol>
-	<li>Install OpenCV library</li>
-		<lu>
-		</lu>	
+	Here is the list of the needed libraries:
+	<ul>
+		<li>Numpy (version : )</li>
+		<li>Matplotlib (version : )</li>
+		<li>iMutis (version : )</li>
+		<li>Scipy (version : )</li>
+		<li>Keras (version : )</li>
+		<li>TensorFlow (version : )</li>
+		<li>Pickle (version : )</li>
+		<li>Dlib (version : )</li>
+	</ul>
+	<li>Install numpy library</li>
+		<ul>
+			<li>Enter <code>pip install numpy</code> in the terminal</li>
+		</ul>	
+	<li>Install matplotlib library</li>
+		<ul>
+			<li>Enter <code>pip install matplotlib</code> in the terminal</li>
+		</ul>	
 	<li>Install imutils library</li>
-		<lu>
-		</lu>	
-	<li>Install FaceRecognition library</li>
-		<lu>
-		</lu>	
+		<ul>
+			<li>Enter <code>pip install imutils</code> in the terminal</li>
+		</ul>	
+	<li>Install scipy library</li>
+		<ul>
+			<li>Enter <code>pip install scipy</code> in the terminal.
+				This step takes a long time (2-3 hours). You can revise your SI course during this period :-).
+			</li>
+		</ul>	
+	<li>Install keras library</li>
+		<ul>
+			<li>Enter <code>pip install keras</code> in the terminal.</li>
+		</ul>	
+	<li>Install tensorflow library</li>
+		<ul>
+			<li>Enter <code>pip install tensorflow</code> in the terminal.</li>
+		</ul>		
+	<li>Install pickle library</li>
+		<ul>
+			<li>Normally, pickle is already installedon the raspberry. If not,
+				enter <code>pip install pickle</code> in the terminal.</li>
+		</ul>
+	<li>Install dlib library</li>
+		<ul>
+			<li>We have install dlib with GPU support.
+				Enter <code>git clone https://github.com/davisking/dlib.git</code> in the terminal.</li>
+			<li>Enter <code>cd dlib</code> in the terminal.</li>
+			<li>Enter <code>mkdir build</code> in the terminal.</li>
+			<li>Enter <code>cd build</code> in the terminal.</li>
+			<li>Enter <code>cmake .. -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1</code> in the terminal.</li>
+			<li>Enter <code>cmake --build</code> in the terminal.</li>
+			<li>Enter <code>cd ..</code> in the terminal.</li>
+			<li>Enter <code>python setup.py install --yes USE_AVX_INSTRUCTIONS --yes DLIB_USE_CUDA</code> in the terminal.</li>
+			If it doesn't work, you can try:
+			<li>Enter <code>pip install dlib</code> in the terminal.</li>
+		</ul>				
 </ol>	
 
 <hr>

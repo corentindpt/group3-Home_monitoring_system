@@ -108,13 +108,13 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 		</ul>		
 	<li>Install pickle library</li>
 		<ul>
-			<li>Normally, pickle is already installedon the raspberry. If not,
+			<li>Normally, pickle is already installed on the raspberry. If not,
 				enter <code>pip install pickle</code> in the terminal.</li>
 		</ul>
 	<li>Install dlib library</li>
 		<ul>
-			<li>We have install dlib with GPU support.
-				Enter <code>git clone https://github.com/davisking/dlib.git</code> in the terminal.</li>
+			We have install dlib with GPU support.
+			<li>Enter <code>git clone https://github.com/davisking/dlib.git</code> in the terminal.</li>
 			<li>Enter <code>cd dlib</code> in the terminal.</li>
 			<li>Enter <code>mkdir build</code> in the terminal.</li>
 			<li>Enter <code>cd build</code> in the terminal.</li>

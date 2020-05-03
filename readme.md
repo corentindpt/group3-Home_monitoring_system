@@ -221,7 +221,7 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 </ol>
 <hr>
 <h2>Video</h2>
-<li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> Clique here</a></li>
+<li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> Click here</a></li>
 <h2><u>Contributing</u></h2>
 <li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> https://raspberry-valley.azurewebsites.net/Python-Default-Version/</a></li>
 <li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>

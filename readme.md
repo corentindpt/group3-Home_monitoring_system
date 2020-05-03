@@ -12,7 +12,7 @@ Thanks to the Raspberry and the Pi camera, the video stream is analyzed. If the 
 
 <img src="pictures/Project_presentation_3.png" alt="Project_presentation_3" />
 
- If the person is not recognized by the system or is not allowed to enter in the house, a doorbell rings to notify the residents of a guest coming in thanks to the Arduino. 
+ If the person is not recognized by the system or is not allowed to enter in the house, a doorbell rings to notify the residents of a guest coming in thanks to the Arduino.
 
 <img src="pictures/Project_presentation_4.png" alt="Project_presentation_4" />
 
@@ -37,7 +37,8 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 <h3>prerequisite</h3>
 <h4>Material list</h4>
 <img src="pictures/Material_list.jpeg" alt="Material_list" />
-<h3>Configuration of the Raspberry Pi 4</h3>
+<h3>Raspberry PI 4</h3>
+<h4>Configuration of the Raspberry Pi 4</h4>
 <ol>
 	<li>Connect your Raspberry to a power supply and a network via Wifi or via Ethernet</li>
 	<li>Enable the ssh on the Rapsberry Pi to control it from your pc</li>
@@ -65,9 +66,9 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 		<ul>
 			<li>Enter <code>sudo apt update</code> in the terminal</li>
 			<li>Enter <code>sudo apt full-upgrade</code> in the terminal</li>
-		</ul>	
+		</ul>
 </ol>
-<h3>Installing</h3>
+<h4>Installing</h4>
 <ol>
 	Here is the list of the needed libraries:
 	<ul>
@@ -83,29 +84,29 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 	<li>Install numpy library</li>
 		<ul>
 			<li>Enter <code>pip install numpy</code> in the terminal</li>
-		</ul>	
+		</ul>
 	<li>Install matplotlib library</li>
 		<ul>
 			<li>Enter <code>pip install matplotlib</code> in the terminal</li>
-		</ul>	
+		</ul>
 	<li>Install imutils library</li>
 		<ul>
 			<li>Enter <code>pip install imutils</code> in the terminal</li>
-		</ul>	
+		</ul>
 	<li>Install scipy library</li>
 		<ul>
 			<li>Enter <code>pip install scipy</code> in the terminal.
 				This step takes a long time (2-3 hours). You can revise your SI course during this period :-).
 			</li>
-		</ul>	
+		</ul>
 	<li>Install keras library</li>
 		<ul>
 			<li>Enter <code>pip install keras</code> in the terminal.</li>
-		</ul>	
+		</ul>
 	<li>Install tensorflow library</li>
 		<ul>
 			<li>Enter <code>pip install tensorflow</code> in the terminal.</li>
-		</ul>		
+		</ul>
 	<li>Install pickle library</li>
 		<ul>
 			<li>Normally, pickle is already installed on the raspberry. If not,
@@ -124,10 +125,38 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 			<li>Enter <code>python setup.py install --yes USE_AVX_INSTRUCTIONS --yes DLIB_USE_CUDA</code> in the terminal.</li>
 			if it doesn’t works, you can try the installing without the GPU support :
 			<li>Enter <code>pip install dlib</code> in the terminal.</li>
-		</ul>				
-</ol>	
-
+		</ul>
+</ol>
 <hr>
+<h3>MQTT</h3>
+<h4>Topics</h4>
+<ul>
+	  <li>etu30673@henallux.be/si/option</li>
+	<ul>
+		<li>This topic allows you to send instructions to raspberry (recognition) to perform a task or the other</li>
+	</ul>
+	  <li>etu30673@henallux.be/si/recognition</li>
+	<ul>
+		<li>This section allows the arduino to read the output of the recognition program.</li>
+	</ul>
+  <li>etu30673@henallux.be/si/prenom</li>
+  <ul>
+		<li>--</li>
+	</ul>
+  <li>etu30673@henallux.be/si/nom</li>
+  <ul>
+		<li>---</li>
+	</ul>
+  <li>etu30673@henallux.be/si/suppression</li>
+  <ul>
+		<li>---</li>
+	</ul>
+  <li>etu30673@henallux.be/si/chemin</li>
+  <ul>
+		<li>---</li>
+	</ul>
+</ul>
+
 <h2><u>Start the program</u></h2>
 
 <hr>

@@ -74,12 +74,14 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 	<ul>
 		<li>Numpy (version : 1.18.3)</li>
 		<li>Matplotlib (version : 3.2.1)</li>
-		<li>imutils (version : )</li>
+		<li>imutils (version : 0.5.3)</li>
 		<li>Scipy (version : 1.4.1)</li>
 		<li>Keras (version : 2.3.1)</li>
 		<li>TensorFlow (version : 1.14.0)</li>
 		<li>Pickle (version : 4.0)</li>
 		<li>Dlib (version : 19.19.0)</li>
+		<li>Opencv (version : 4.0.0 )</li>
+		<li>PiCamera (version : 1.13)</li>
 	</ul>
 	<li>Install numpy library</li>
 		<ul>
@@ -126,6 +128,16 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 			if it doesn’t works, you can try the installing without the GPU support :
 			<li>Enter <code>pip install dlib</code> in the terminal.</li>
 		</ul>
+	<li>Install OpenCv</li>
+		<ul>
+			<li><code>sudo pip install opencv-contrib-python</code></li>
+		</ul>
+	<li>Install PiCamera</li>
+		<ul>
+			<li><code>pip install picamera</code></li>
+		</ul>
+
+
 </ol>
 <hr>
 <h3>MQTT</h3>
@@ -206,7 +218,18 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 </ol>
 <hr>
 <h2><u>Contributing</u></h2>
-
+<a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> https://raspberry-valley.azurewebsites.net/Python-Default-Version/ ></a>
+<a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a>
+<a href=https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/ > https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/</a>
+<a href=< https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/>https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/</a>
+<a href=https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/>https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/</a>
+<a href=https://www.openweathermap.org> openweathermap.org</a>
+<a href=https://www.openweathermap.org> openweathermap.org</a>
+<a href=https://www.openweathermap.org> openweathermap.org</a>
+<a href=https://www.openweathermap.org> openweathermap.org</a>
+<a href=https://www.openweathermap.org> openweathermap.org</a>
+<a href=https://www.openweathermap.org> openweathermap.org</a>
+<a href=https://aboveintelligent.com/face-recognition-with-keras-and-opencv-2baf2a83b799> https://aboveintelligent.com/face-recognition-with-keras-and-opencv-2baf2a83b799</a>
 <hr>
 <h2><u>Authors</u></h2>
 <ul>

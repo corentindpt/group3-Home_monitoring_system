@@ -222,10 +222,10 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 <li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> https://raspberry-valley.azurewebsites.net/Python-Default-Version/ ></a></li>
 <li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>
 <li><a href=https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/ > https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/</a></li>
-<li><a href=< https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/>https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/</a></li>
+<li><a href=https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/>https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/</a></li>
 <li><a href=https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/>https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/</a></li>
-<li><a href=https://www.openweathermap.org> openweathermap.org</a></li>
-<li><a href=https://www.openweathermap.org> openweathermap.org</a></li>
+<li><a href=https://www.carnetdumaker.net/articles/controler-un-servomoteur-avec-une-carte-arduino-genuino/> < https://www.carnetdumaker.net/articles/controler-un-servomoteur-avec-une-carte-arduino-genuino/</a></li>
+<li><a href=https://raspberrypi.stackexchange.com/questions/26286/update-python-version-on-raspbian> https://raspberrypi.stackexchange.com/questions/26286/update-python-version-on-raspbian</a></li>
 <li><a href=https://stackoverflow.com/questions/60252119/error-environment-users-myuser-virtualenvs-iron-does-not-contain-activation-s/60292344#60292344> https://stackoverflow.com/questions/60252119/error-environment-users-myuser-virtualenvs-iron-does-not-contain-activation-s/60292344#60292344</a></li>
 <li><a href=https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c> https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c</a></li>
 <li><a href=https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients> https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients</a></li>

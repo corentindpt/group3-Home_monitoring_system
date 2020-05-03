@@ -141,6 +141,7 @@ It is necessary to create an mqtt broker (<a href=https://www.maqiatto.com> maqi
 	<ul>
 		<li>This section allows the arduino to read the output of the recognition program.</li>
 	</ul>
+	<img src="pictures/Project_presentation_7.png" alt="Project_presentation_7" />
   <li>etu30673@henallux.be/si/prenom</li>
   <ul>
 		<li>This topic allows you to send the first name of the person you want to add to the database. The first name must be written without an accent</li>

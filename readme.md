@@ -30,7 +30,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
   <li><strong>Getting started</strong></li>
   <li><strong>Start the program</strong></li>
   <li><strong>Video</strong></li>
-  <li><strong>Test with the facerecognition librairy</strong></li>
+  <li><strong>Test with the facerecognition library</strong></li>
   <li><strong>Contributing</strong></li>
   <li><strong>Authors</strong></li>
 </ul>
@@ -225,8 +225,7 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 <h2>Video</h2>
 <li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> Click here</a></li>
 
-<h2>Test with the facerecognition librairy</h2>
-<li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning//> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>
+<h2>Test with the facerecognition library</h2>
 <li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning//> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>
 
 <h2><u>Contributing</u></h2>

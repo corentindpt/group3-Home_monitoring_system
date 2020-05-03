@@ -30,6 +30,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
   <li><strong>Getting started</strong></li>
   <li><strong>Start the program</strong></li>
   <li><strong>Video</strong></li>
+  <li><strong>Test with the facerecognition librairy</strong></li>
   <li><strong>Contributing</strong></li>
   <li><strong>Authors</strong></li>
 </ul>
@@ -214,7 +215,8 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 	<li>Install the <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Actuators_programs/Program_final> arduino program</a> to control actuators</li>
 	<li>Connect the arduino to the USB port of the raspberry pi. Don't forget to update the connected port of the raspberry on NodeRed</li>
 	<li>Download <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Programs_VGG> Programs_VGG</a></li>
-	<li>Download this<a href=http://www.vlfeat.org/matconvnet/models/vgg-face.mat> file</a> and place it to Programs_VGG/createModem/vgg-face.mat</li>
+	<li>Download this<a href=http://www.vlfeat.org/matconvnet/models/vgg-face.mat> file</a> and place it to Programs_VGG/createMode/vgg-face.mat</li>
+	<li>Download this <a href=https://henallux-my.sharepoint.com/:u:/g/personal/etu30674_henallux_be/EVLlXGlJwiJDi7a0FkhuD8YBwqBm6PopbBZyLh00xaC2xA?e=BeDiXK> file</a> and place it to programs_VGG/createModel/VGG_Model.h5</li>
 	<li>Start NodeRed on Raspberry Pi4 : <code>node-red</code></li>
 	<li>Import <a href=https://github.com/corentindpt/group3-Home_monitoring_system/blob/master/Programs/DashboardHomeMonitoringSystem.json> NodeRed program</a> on the raspberry and install pallets required.</li>
 	<li>Start the main program <code>python mainProgramm.py</code></li>
@@ -222,6 +224,11 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 <hr>
 <h2>Video</h2>
 <li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> Click here</a></li>
+
+<h2>Test with the facerecognition librairy</h2>
+<li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning//> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>
+<li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning//> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>
+
 <h2><u>Contributing</u></h2>
 <li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> https://raspberry-valley.azurewebsites.net/Python-Default-Version/</a></li>
 <li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>

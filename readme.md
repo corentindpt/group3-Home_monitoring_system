@@ -129,6 +129,8 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 </ol>
 <hr>
 <h3>MQTT</h3>
+<h4>Set up</h4>
+It is necessary to create an mqtt broker (<a href=https://www.maqiatto.com> maqiatto.com</a>) and to create the following topics.
 <h4>Topics</h4>
 <ul>
 	  <li>etu30673@henallux.be/si/option</li>
@@ -141,19 +143,55 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 	</ul>
   <li>etu30673@henallux.be/si/prenom</li>
   <ul>
-		<li>--</li>
+		<li>This topic allows you to send the first name of the person you want to add to the database.</li>
 	</ul>
   <li>etu30673@henallux.be/si/nom</li>
   <ul>
-		<li>---</li>
+		<li>This topic allows you to send the last name of the person you want to add to the database.</li>
 	</ul>
   <li>etu30673@henallux.be/si/suppression</li>
   <ul>
-		<li>---</li>
+		<li>This topic allows you to send "Firstname_Lastname" of the person you want to remove from the database.</li>
 	</ul>
   <li>etu30673@henallux.be/si/chemin</li>
   <ul>
-		<li>---</li>
+		<li>This topic allows you to add photos of a person to the database.</li>
+	</ul>
+</ul>
+<h4>
+
+<h3>Dashboard Nodered</h3>
+The dashboard allows you to control facial recognition via MQTT requests.
+All this is done using buttons and input zones.
+
+On this dashboard there is also the camera feed corresponding in reality to the display of a photo every 2 seconds.
+There is also weather data from the city of Virton, Belgium. These are "http requests" on the <a href=https://www.openweathermap.org> openweathermap.org</a> site.
+
+<h4>Pallets required</h4>
+<ul>
+	  <li><strong>node-red-contrib-camerapi</strong></li>
+	<ul>
+		<li>To interact with the pi camera.</li>
+	</ul>
+	  <li><strong>node-red-contrib-moment</strong></li>
+	<ul>
+		<li>To access the time and date.</li>
+	</ul>
+  <li><strong>node-red-dashboard</strong></li>
+  <ul>
+		<li>To have access to various display modules. Example: buttons.</li>
+	</ul>
+  <li><strong>node-red-node-base64</strong></li>
+  <ul>
+		<li>For encoding photos.</li>
+	</ul>
+  <li><strong>node-red-node-serialport</strong></li>
+  <ul>
+		<li>To make communication via the serial port with the arduino possible.</li>
+	</ul>
+  <li><strong>node-red-contrib-ui-media</strong></li>
+  <ul>
+		<li>To display an image stored locally.</li>
 	</ul>
 </ul>
 

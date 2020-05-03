@@ -212,7 +212,8 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 <ol>
 	<li>Install the <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Actuators_programs/Program_final> arduino program</a> to control actuators</li>
 	<li>Connect the arduino to the USB port of the raspberry pi. Don't forget to update the connected port of the raspberry on NodeRed</li>
-	<li>Implement Raspberry program</li>
+	<li>Download <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Programs_VGG> Programs_VGG</a></li>
+	<li>Download this<a href=http://www.vlfeat.org/matconvnet/models/vgg-face.mat> file</a> and place it to Programs_VGG/createModem/vgg-face.mat</li>
 	<li>Create topics MQTT</li>
 	<li>Start NodeRed on Raspberry Pi4</li>
 	<li>Import <a href=https://github.com/corentindpt/group3-Home_monitoring_system/blob/master/Programs/DashboardHomeMonitoringSystem.json> NodeRed program</a> on the raspberry and install pallets required.</li>

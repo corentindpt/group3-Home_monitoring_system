@@ -29,6 +29,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 <ul>
   <li><strong>Getting started</strong></li>
   <li><strong>Start the program</strong></li>
+  <li><strong>Video</strong></li>
   <li><strong>Contributing</strong></li>
   <li><strong>Authors</strong></li>
 </ul>
@@ -70,7 +71,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 </ol>
 <h4>Installing</h4>
 <ol>
-	Here is the list of the needed libraries. All this librairies, must be installed with python <strong>version 3.6.</strong>
+	Here is the list of the needed libraries. All these librairies, must be installed with python <strong>version 3.6.</strong>
 	<ul>
 		<li>Numpy (version : 1.18.3)</li>
 		<li>Matplotlib (version : 3.2.1)</li>
@@ -216,11 +217,13 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 	<li>Download this<a href=http://www.vlfeat.org/matconvnet/models/vgg-face.mat> file</a> and place it to Programs_VGG/createModem/vgg-face.mat</li>
 	<li>Start NodeRed on Raspberry Pi4 : <code>node-red</code></li>
 	<li>Import <a href=https://github.com/corentindpt/group3-Home_monitoring_system/blob/master/Programs/DashboardHomeMonitoringSystem.json> NodeRed program</a> on the raspberry and install pallets required.</li>
-	<li>Start the main programm <code>python mainProgramm.py</code></li>
+	<li>Start the main program <code>python mainProgramm.py</code></li>
 </ol>
 <hr>
+<h2>Video</h2>
+<li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> Clique here</a></li>
 <h2><u>Contributing</u></h2>
-<li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> https://raspberry-valley.azurewebsites.net/Python-Default-Version/ ></a></li>
+<li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> https://raspberry-valley.azurewebsites.net/Python-Default-Version/</a></li>
 <li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>
 <li><a href=https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/ > https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/</a></li>
 <li><a href=https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/>https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/</a></li>

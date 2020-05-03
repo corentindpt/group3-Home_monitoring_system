@@ -71,14 +71,14 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 <ol>
 	Here is the list of the needed libraries:
 	<ul>
-		<li>Numpy (version : )</li>
-		<li>Matplotlib (version : )</li>
-		<li>iMutis (version : )</li>
-		<li>Scipy (version : )</li>
-		<li>Keras (version : )</li>
-		<li>TensorFlow (version : )</li>
-		<li>Pickle (version : )</li>
-		<li>Dlib (version : )</li>
+		<li>Numpy (version : 1.18.3)</li>
+		<li>Matplotlib (version : 3.2.1)</li>
+		<li>imutils (version : )</li>
+		<li>Scipy (version : 1.4.1)</li>
+		<li>Keras (version : 2.3.1)</li>
+		<li>TensorFlow (version : 1.14.0)</li>
+		<li>Pickle (version : 4.0)</li>
+		<li>Dlib (version : 19.19.0)</li>
 	</ul>
 	<li>Install numpy library</li>
 		<ul>
@@ -113,7 +113,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 		</ul>
 	<li>Install dlib library</li>
 		<ul>
-			We have install dlib with GPU support.
+			We have installed dlib with GPU support.
 			<li>Enter <code>git clone https://github.com/davisking/dlib.git</code> in the terminal.</li>
 			<li>Enter <code>cd dlib</code> in the terminal.</li>
 			<li>Enter <code>mkdir build</code> in the terminal.</li>
@@ -122,7 +122,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 			<li>Enter <code>cmake --build</code> in the terminal.</li>
 			<li>Enter <code>cd ..</code> in the terminal.</li>
 			<li>Enter <code>python setup.py install --yes USE_AVX_INSTRUCTIONS --yes DLIB_USE_CUDA</code> in the terminal.</li>
-			If it doesn't work, you can try:
+			if it doesn’t works, you can try the installing without the GPU support :
 			<li>Enter <code>pip install dlib</code> in the terminal.</li>
 		</ul>				
 </ol>	

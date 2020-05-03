@@ -70,7 +70,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 </ol>
 <h4>Installing</h4>
 <ol>
-	Here is the list of the needed libraries:
+	Here is the list of the needed libraries. All this librairies, must be installed with python <strong>version 3.6.</strong>
 	<ul>
 		<li>Numpy (version : 1.18.3)</li>
 		<li>Matplotlib (version : 3.2.1)</li>
@@ -142,7 +142,7 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 <hr>
 <h3>MQTT</h3>
 <h4>Set up</h4>
-It is necessary to create an mqtt broker (<a href=https://www.maqiatto.com> maqiatto.com</a>) and to create the following topics.
+It is necessary to create an mqtt broker (<a href=https://www.maqiatto.com>maqiatto.com</a>) and to create the following topics.
 <h4>Topics</h4>
 <ul>
 	  <li>etu30673@henallux.be/si/option</li>
@@ -214,9 +214,9 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 	<li>Connect the arduino to the USB port of the raspberry pi. Don't forget to update the connected port of the raspberry on NodeRed</li>
 	<li>Download <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Programs_VGG> Programs_VGG</a></li>
 	<li>Download this<a href=http://www.vlfeat.org/matconvnet/models/vgg-face.mat> file</a> and place it to Programs_VGG/createModem/vgg-face.mat</li>
-	<li>Create topics MQTT</li>
-	<li>Start NodeRed on Raspberry Pi4</li>
+	<li>Start NodeRed on Raspberry Pi4 : <code>node-red</code></li>
 	<li>Import <a href=https://github.com/corentindpt/group3-Home_monitoring_system/blob/master/Programs/DashboardHomeMonitoringSystem.json> NodeRed program</a> on the raspberry and install pallets required.</li>
+	<li>Start the main programm <code>python mainProgramm.py</code></li>
 </ol>
 <hr>
 <h2><u>Contributing</u></h2>
@@ -225,7 +225,7 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 <li><a href=https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/ > https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/</a></li>
 <li><a href=https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/>https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/</a></li>
 <li><a href=https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/>https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/</a></li>
-<li><a href=https://www.carnetdumaker.net/articles/controler-un-servomoteur-avec-une-carte-arduino-genuino/> < https://www.carnetdumaker.net/articles/controler-un-servomoteur-avec-une-carte-arduino-genuino/</a></li>
+<li><a href=https://www.carnetdumaker.net/articles/controler-un-servomoteur-avec-une-carte-arduino-genuino/>https://www.carnetdumaker.net/articles/controler-un-servomoteur-avec-une-carte-arduino-genuino/</a></li>
 <li><a href=https://raspberrypi.stackexchange.com/questions/26286/update-python-version-on-raspbian> https://raspberrypi.stackexchange.com/questions/26286/update-python-version-on-raspbian</a></li>
 <li><a href=https://stackoverflow.com/questions/60252119/error-environment-users-myuser-virtualenvs-iron-does-not-contain-activation-s/60292344#60292344> https://stackoverflow.com/questions/60252119/error-environment-users-myuser-virtualenvs-iron-does-not-contain-activation-s/60292344#60292344</a></li>
 <li><a href=https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c> https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c</a></li>

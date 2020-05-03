@@ -1,7 +1,7 @@
 /*----------------------------------------*/
 /*Programmer : Corentin Dupont            */
 /*Management of lighting                  */
-/*Last modification : april 24 2020       */
+/*Last modification : may 03 2020         */
 /*----------------------------------------*/
 /*--------------Librairies----------------*/
 #include <Servo.h> //Servomotor
@@ -105,7 +105,7 @@ void management_door(void)
     {
       Serial.println("Door open");
       lock.write(90);
-      delay(2000);
+      delay(8000);
       lock.write(0);
     }
     if (a == '0') //Unknown personn

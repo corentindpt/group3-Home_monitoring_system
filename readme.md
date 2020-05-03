@@ -211,6 +211,7 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 <h2><u>Start the program</u></h2>
 <ol>
 	<li>Install the <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Actuators_programs/Program_final> arduino program</a> to control actuators</li>
+	<li>Connect the arduino to the USB port of the raspberry pi. Don't forget to update the connected port of the raspberry on NodeRed</li>
 	<li>Implement Raspberry program</li>
 	<li>Create topics MQTT</li>
 	<li>Start NodeRed on Raspberry Pi4</li>
@@ -218,18 +219,17 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 </ol>
 <hr>
 <h2><u>Contributing</u></h2>
-<a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> https://raspberry-valley.azurewebsites.net/Python-Default-Version/ ></a>
-<a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a>
-<a href=https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/ > https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/</a>
-<a href=< https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/>https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/</a>
-<a href=https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/>https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/</a>
-<a href=https://www.openweathermap.org> openweathermap.org</a>
-<a href=https://www.openweathermap.org> openweathermap.org</a>
-<a href=https://www.openweathermap.org> openweathermap.org</a>
-<a href=https://www.openweathermap.org> openweathermap.org</a>
-<a href=https://www.openweathermap.org> openweathermap.org</a>
-<a href=https://www.openweathermap.org> openweathermap.org</a>
-<a href=https://aboveintelligent.com/face-recognition-with-keras-and-opencv-2baf2a83b799> https://aboveintelligent.com/face-recognition-with-keras-and-opencv-2baf2a83b799</a>
+<li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> https://raspberry-valley.azurewebsites.net/Python-Default-Version/ ></a></li>
+<li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>
+<li><a href=https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/ > https://www.pyimagesearch.com/2018/06/11/how-to-build-a-custom-face-recognition-dataset/</a></li>
+<li><a href=< https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/>https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/</a></li>
+<li><a href=https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/>https://www.pyimagesearch.com/2018/03/12/python-argparse-command-line-arguments/</a></li>
+<li><a href=https://www.openweathermap.org> openweathermap.org</a></li>
+<li><a href=https://www.openweathermap.org> openweathermap.org</a></li>
+<li><a href=https://stackoverflow.com/questions/60252119/error-environment-users-myuser-virtualenvs-iron-does-not-contain-activation-s/60292344#60292344> https://stackoverflow.com/questions/60252119/error-environment-users-myuser-virtualenvs-iron-does-not-contain-activation-s/60292344#60292344</a></li>
+<li><a href=https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c> https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c</a></li>
+<li><a href=https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients> https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients</a></li>
+<li><a href=https://aboveintelligent.com/face-recognition-with-keras-and-opencv-2baf2a83b799> https://aboveintelligent.com/face-recognition-with-keras-and-opencv-2baf2a83b799</a></li>
 <hr>
 <h2><u>Authors</u></h2>
 <ul>

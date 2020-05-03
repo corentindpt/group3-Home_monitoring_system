@@ -135,7 +135,7 @@ It is necessary to create an mqtt broker (<a href=https://www.maqiatto.com> maqi
 <ul>
 	  <li>etu30673@henallux.be/si/option</li>
 	<ul>
-		<li>This topic allows you to send instructions to raspberry (recognition) to perform a task or the other</li>
+		<li>This topic allows you to send instructions to raspberry (recognition) to perform a task or an other</li>
 	</ul>
 	  <li>etu30673@henallux.be/si/recognition</li>
 	<ul>
@@ -143,7 +143,7 @@ It is necessary to create an mqtt broker (<a href=https://www.maqiatto.com> maqi
 	</ul>
   <li>etu30673@henallux.be/si/prenom</li>
   <ul>
-		<li>This topic allows you to send the first name of the person you want to add to the database.</li>
+		<li>This topic allows you to send the first name of the person you want to add to the database. The first name must be written without an accent</li>
 	</ul>
   <li>etu30673@henallux.be/si/nom</li>
   <ul>
@@ -196,7 +196,13 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 </ul>
 
 <h2><u>Start the program</u></h2>
-
+<ol>
+	<li>Install the <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Actuators_programs/Program_final> arduino program</a> to control actuators</li>
+	<li>Implement Raspberry programm</li>
+	<li>Create topics MQTT</li>
+	<li>Start NodeRed on Raspberry Pi4</li>
+	<li>Import <a href=https://github.com/corentindpt/group3-Home_monitoring_system/blob/master/Programs/DashboardHomeMonitoringSystem.json> NodeRed program</a> on the raspberry and install pallets required.</li>
+</ol>
 <hr>
 <h2><u>Contributing</u></h2>
 

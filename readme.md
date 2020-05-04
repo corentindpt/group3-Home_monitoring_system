@@ -222,10 +222,9 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 	<li>Start the main program <code>python mainProgramm.py</code></li>
 </ol>
 <hr>
-<h2>Video</h2>
+<h2>Videos</h2>
 Video of the realization of the actuator part:
 <li><a href=https://web.microsoftstream.com/video/3711fd6a-5c3a-42b6-8cd7-a7d015ffb8ea> Click here</a></li>
-
 Video of the demonstration of the recognition system:
 <li><a href=https://web.microsoftstream.com/video/1d0c80a1-8427-4fff-abdf-860a60c7f02a> Click here</a></li>
 

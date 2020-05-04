@@ -223,7 +223,11 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 </ol>
 <hr>
 <h2>Video</h2>
-<li><a href=https://raspberry-valley.azurewebsites.net/Python-Default-Version/> Click here</a></li>
+Video of the realization of the actuator part:
+<li><a href=https://web.microsoftstream.com/video/3711fd6a-5c3a-42b6-8cd7-a7d015ffb8ea> Click here</a></li>
+
+Video of the demonstration of the recognition system:
+<li><a href=https://web.microsoftstream.com/video/1d0c80a1-8427-4fff-abdf-860a60c7f02a> Click here</a></li>
 
 <h2>Test with the facerecognition library</h2>
 <li><a href=https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning//> https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/</a></li>

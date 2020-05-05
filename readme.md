@@ -221,10 +221,9 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 	<li>Enter this command in the terminal to start node red on boot <code>sudo systemctl enable nodered.service</code></li>
 	<li>Start NodeRed on Raspberry Pi4 by entering: <code>node-red</code> in the terminal</li>
 	<li>Import <a href=https://github.com/corentindpt/group3-Home_monitoring_system/blob/master/Programs/DashboardHomeMonitoringSystem.json> NodeRed program</a> on the raspberry and install pallets required.</li>
-	<li>Go to the path /home/pi/Programs_VGG and start the main program <code>python mainProgramm.py</code></li>
 </ol>
 <hr>
-<h2><u>How to use the facial recognition system</u></h2>
+<h2><u>How to use the facial recognition system with the dashboard</u></h2>
 	<h3>Switch on the system</h3>
 	<ol>
 		<li>Connect the Raspberry's plug to an electrical outlet</li>
@@ -253,20 +252,20 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 		<li>To enter a new person in the dataset with downloaded pictures: </li>
 			<ul>
 				<li>Click on the button "Ajouter une nouvelle personne via des photos"</li>
-				<li>Enter the folder of the pictures you downloaded in the Raspberry (e.g. /home/pi/Downloads/Arnaud_Josis). The format of the folder containings the pictures must be in the format "Firstname_Lastname" and push on the "Enter" button on your keyboard<li>
+				<li>Enter the folder of the pictures you downloaded in the Raspberry (e.g. /home/pi/Downloads/Arnaud_Josis). The format of the folder containing the pictures must be in the format "Firstname_Lastname" and push on the "Enter" button on your keyboard</li>
 			</ul>
 		<li>To delete a person in the dataset: </li>
 			<ul>
 				<li>Click on the button "Supprimer une personne"</li>
 				<li>Enter the name of the person to be deleted (the name must be the format : Firsname_Lastname) and push on the "Enter" button on your keyboard</li>
 			</ul>
-		<li>To realize live prediction: <li>
+		<li>To realize live prediction:</li>
 			<ul>
 				<li>Click on the button "Predire une personne"</li>
 				<li>A new window opens with the video stream. If the person is recognized the name of this one is displayed above the green rectangle around the face. However, if the person is not recognized the name displayed is "Unknown"</li>
 				<li>Push on the "q" button to exit the mode</li>
 			</ul>			
-		<li>To exit the program: <li>
+		<li>To exit the program: </li>
 			<ul>
 				<li>Click on the button "exit"</li>
 			</ul>	

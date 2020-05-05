@@ -28,7 +28,8 @@ In the event that is dark, and a person is detected by the Raspberry, the outsid
 <h2><u>Summary</u></h2>
 <ul>
   <li><strong>Getting started</strong></li>
-  <li><strong>Start the program</strong></li>
+  <li><strong>Install the programs</strong></li>
+  <li><strong>How to use the facial reconition system</strong></li>
   <li><strong>Video</strong></li>
   <li><strong>Test with the facerecognition library</strong></li>
   <li><strong>Contributing</strong></li>
@@ -210,18 +211,40 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 	</ul>
 </ul>
 
-<h2><u>Start the program</u></h2>
+<h2><u>Install the programs</u></h2>
 <ol>
 	<li>Install the <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Actuators_programs/Program_final> arduino program</a> to control actuators</li>
 	<li>Connect the arduino to the USB port of the raspberry pi. Don't forget to update the connected port of the raspberry on NodeRed</li>
-	<li>Download <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Programs_VGG> Programs_VGG</a></li>
+	<li>Download <a href=https://github.com/corentindpt/group3-Home_monitoring_system/tree/master/Programs/Programs_VGG> Programs_VGG and place it to the path /home/pi</a></li>
 	<li>Download this<a href=http://www.vlfeat.org/matconvnet/models/vgg-face.mat> file</a> and place it to Programs_VGG/createMode/vgg-face.mat</li>
 	<li>Download this <a href=https://henallux-my.sharepoint.com/:u:/g/personal/etu30674_henallux_be/EVLlXGlJwiJDi7a0FkhuD8YBwqBm6PopbBZyLh00xaC2xA?e=BeDiXK> file</a> and place it to programs_VGG/createModel/VGG_Model.h5</li>
-	<li>Start NodeRed on Raspberry Pi4 : <code>node-red</code></li>
+	<li>Enter this command in the terminal to start node red on boot <code>sudo systemctl enable nodered.service</code></li>
+	<li>Start NodeRed on Raspberry Pi4 by entering: <code>node-red</code> in the terminal</li>
 	<li>Import <a href=https://github.com/corentindpt/group3-Home_monitoring_system/blob/master/Programs/DashboardHomeMonitoringSystem.json> NodeRed program</a> on the raspberry and install pallets required.</li>
-	<li>Start the main program <code>python mainProgramm.py</code></li>
+	<li>Go to the path /home/pi/Programs_VGG and start the main program <code>python mainProgramm.py</code></li>
 </ol>
 <hr>
+<h2><u>How to use the facial recognition system</u></h2>
+	<h3><u>Switch on the system</u><h3>
+	<ol>
+		<li>Connect the Raspberry's plug to an electrical outlet</li>
+		<li>Switch on the Raspberry</li>
+	</ol>
+	<h3><u>Launch the program</u><h3>
+	<ol>
+		<li>Go to the terminal and move to the program directory by entering <code>cd /home/pi/Programs_VGG</code></li>
+		<li>Enter <code>python mainProgram.py</code> in the terminal to start the program</li>
+		<li>To acces on the dashboard on NodeRed, open a web browser and enter <code>http://127.0.0.0:1880/ui</code> on the Raspberry</li>
+	</ol>
+	<h3><u>Use the facial recognition system</u><h3>
+	<ol>
+		<li>To enter a new person in the dataset with the piCamera</li>
+		Test
+		<li>To enter a new person in the dataset with downloaded pictures</li>
+		<li>To delete a person in the dataset</li>
+		<li>To realize live prediction<li>
+		<li>To exit the program<li>
+	</ol>	
 <h2>Videos</h2>
 Video of the realization of the actuator part:
 <li><a href=https://web.microsoftstream.com/video/3711fd6a-5c3a-42b6-8cd7-a7d015ffb8ea> Click here</a></li>

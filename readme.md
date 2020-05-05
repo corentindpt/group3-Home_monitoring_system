@@ -223,27 +223,53 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 	<li>Import <a href=https://github.com/corentindpt/group3-Home_monitoring_system/blob/master/Programs/DashboardHomeMonitoringSystem.json> NodeRed program</a> on the raspberry and install pallets required.</li>
 	<li>Go to the path /home/pi/Programs_VGG and start the main program <code>python mainProgramm.py</code></li>
 </ol>
-
+<hr>
 <h2><u>How to use the facial recognition system</u></h2>
-	<h3><u>Switch on the system</u><h3>
+	<h3>Switch on the system</h3>
 	<ol>
 		<li>Connect the Raspberry's plug to an electrical outlet</li>
 		<li>Switch on the Raspberry</li>
 	</ol>
-	<h3><u>Launch the program</u><h3>
+	<h3>Launch the program</h3>
 	<ol>
 		<li>Go to the terminal and move to the program directory by entering <code>cd /home/pi/Programs_VGG</code></li>
 		<li>Enter <code>python mainProgram.py</code> in the terminal to start the program</li>
 		<li>To acces on the dashboard on NodeRed, open a web browser and enter <code>http://127.0.0.0:1880/ui</code> on the Raspberry</li>
 	</ol>
-	<h3><u>Use the facial recognition system</u><h3>
+	<h3>Use the facial recognition system</h3>
 	<ol>
-		<li>To enter a new person in the dataset with the piCamera</li>
-		Test
-		<li>To enter a new person in the dataset with downloaded pictures</li>
-		<li>To delete a person in the dataset</li>
-		<li>To realize live prediction<li>
-		<li>To exit the program<li>
+		<li>To enter a new person in the dataset with the piCamera: </li>
+			<ul>
+				<li>Click on the button "Ajouter une nouvelle personne avec la piCamera"</li>
+				<li>Enter the firstname with the first letter in capital and without accent</li>
+				<li>Push on the "Enter" button on your keyboard</li>
+				<li>Enter the lastname with the first letter in capital and without accent</li>
+				<li>Push on the "Enter" button on your keyboard</li>
+				<li>A new window opens with the video stream</li>
+				<li>Wait to see a green rectangle around your head and push on the "k" button on your keyboard to take a picture.</li>
+				We recommend you to take from 10 to 20 pictures in different conditions such as with sunglasses, with a scarf or with a cap. The picture mode is exited automatically after 20 pictures have been taken.
+				<li>You can also push on the "q" button to exit the mode</li>
+			</ul>	
+		<li>To enter a new person in the dataset with downloaded pictures: </li>
+			<ul>
+				<li>Click on the button "Ajouter une nouvelle personne via des photos"</li>
+				<li>Enter the folder of the pictures you downloaded in the Raspberry (e.g. /home/pi/Downloads/Arnaud_Josis). The format of the folder containings the pictures must be in the format "Firstname_Lastname" and push on the "Enter" button on your keyboard<li>
+			</ul>
+		<li>To delete a person in the dataset: </li>
+			<ul>
+				<li>Click on the button "Supprimer une personne"</li>
+				<li>Enter the name of the person to be deleted (the name must be the format : Firsname_Lastname) and push on the "Enter" button on your keyboard</li>
+			</ul>
+		<li>To realize live prediction: <li>
+			<ul>
+				<li>Click on the button "Predire une personne"</li>
+				<li>A new window opens with the video stream. If the person is recognized the name of this one is displayed above the green rectangle around the face. However, if the person is not recognized the name displayed is "Unknown"</li>
+				<li>Push on the "q" button to exit the mode</li>
+			</ul>			
+		<li>To exit the program: <li>
+			<ul>
+				<li>Click on the button "exit"</li>
+			</ul>	
 	</ol>	
 <h2>Videos</h2>
 Video of the realization of the actuator part:

@@ -223,7 +223,7 @@ There is also weather data from the city of Virton, Belgium. These are "http req
 	<li>Import <a href=https://github.com/corentindpt/group3-Home_monitoring_system/blob/master/Programs/DashboardHomeMonitoringSystem.json> NodeRed program</a> on the raspberry and install pallets required.</li>
 	<li>Go to the path /home/pi/Programs_VGG and start the main program <code>python mainProgramm.py</code></li>
 </ol>
-<hr>
+
 <h2><u>How to use the facial recognition system</u></h2>
 	<h3><u>Switch on the system</u><h3>
 	<ol>
